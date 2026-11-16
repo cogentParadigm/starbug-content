@@ -1,0 +1,37 @@
+{
+  "name": "starbug/content",
+  "type": "starbug-module",
+  "description": "Starbug content module.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "extra": {
+    "namespace": "Starbug\\Content"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\Content\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Starbug\\Content\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "starbug/db": "^0.12",
+    "starbug/files": "^0.9",
+    "starbug/macro": "^0.9",
+    "starbug/menus": "^0.9",
+    "starbug/routing": "^1.0",
+    "starbug/admin": "^0.9",
+    "starbug/display": "^0.9"
+  },
+  "require-dev": {
+    "starbug/users": "*"
+  }
+}
