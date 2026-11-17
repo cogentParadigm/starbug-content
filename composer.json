@@ -30,7 +30,8 @@
     "starbug/macro": "^0.9",
     "starbug/menus": "^0.9",
     "starbug/routing": "^1.0",
-    "starbug/templates": "^1.0"
+    "starbug/templates": "^1.0",
+    "starbug/users": "^0.10"
   },
   "require-dev": {
     "starbug/users": "*"
